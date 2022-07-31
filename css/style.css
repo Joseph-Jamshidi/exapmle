@@ -2,6 +2,11 @@
     font-family: 'Vazir FD-UI';
     src: url('../font/Vazir-Regular-FD-UI.ttf');
 }
+@media only screen and (max-width: 992px) {
+    .nav-item {
+        width: 80%;
+    }
+}
 body{
     direction: rtl;
     background-color: #EAF8FF;
