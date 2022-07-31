@@ -21,17 +21,6 @@ a , a:visited , a:link{
     color: white;
     text-decoration: none;
 }
-.txt{
-    background-color: #34C931;
-    color: white;
-    border-radius: 5px;
-    margin: -15px 10px 32px 10px;
-    font-family: 'Vazir FD-UI' , sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 27px;
-    line-height: 42px;
-}
 .nav-item{
     background-color: #425C81;
     margin: 8px 16px;
@@ -55,16 +44,6 @@ a , a:visited , a:link{
 #sign\ up a{
     color: #425C81;
 }
-#login2{
-    background-color: #425C81;
-}
-#login2 a{
-    font-family: 'Vazir FD-UI', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19px;
-    line-height: 30px;
-}
 #signup2{
     color: #425C81;
     font-family: 'Vazir FD-UI', sans-serif;
@@ -76,6 +55,16 @@ a , a:visited , a:link{
 .section2{
     padding: 0 0 200px;
     margin: 50px 0 50px;
+}
+#login2{
+    background-color: #425C81;
+}
+#login2 a{
+    font-family: 'Vazir FD-UI', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
 }
 .card{
     border-color: #425C81;
@@ -92,6 +81,17 @@ a , a:visited , a:link{
     box-shadow: 0 5px 13px 2px rgba(0, 0, 0, 0.43);
     border-radius: 47px;
     padding: 63px 0 0;
+}
+.txt{
+    background-color: #34C931;
+    color: white;
+    border-radius: 5px;
+    margin: -15px 10px 32px 10px;
+    font-family: 'Vazir FD-UI' , sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 42px;
 }
 .bt-img{
     transform: translateY(-15%);
