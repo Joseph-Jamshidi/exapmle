@@ -4,44 +4,42 @@
     <meta charset="UTF-8">
     <title>ورود</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
     <link rel="stylesheet" href="css/login-style.css">
     <script src="js/font.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg mb-5">
-    <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav d-flex justify-content-sm-start">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">صفحه اصلی</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">خدمات</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">تعرفه ها</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">درباره ما</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">تماس با ما</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav d-flex justify-content-sm-end">
-                <li class="nav-item" id="sign up">
-                    <a class="nav-link" href="sign-up.html">ثبت نام</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="login.html">ورود</a>
-                </li>
-            </ul>
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav d-flex justify-content-sm-start">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">صفحه اصلی</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">خدمات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">تعرفه ها</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">درباره ما</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">تماس با ما</a>
+                    </li>
+                    <li class="nav-item ms-lg-auto" id="sign up">
+                        <a class="nav-link" href="sign-up.html">ثبت نام</a>
+                    </li>
+                    <li class="nav-item" id="login">
+                        <a class="nav-link" href="login.html">ورود</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
     </nav>
     <div class="section-1 px-3 pt-5">
         <div class="in-sec">
@@ -49,16 +47,16 @@
                 <div class="col-lg-5 col-md-8 col-sm-10 p-3 login-page">
                     <h1 class="d-inline-block" id="log-header">ورود</h1>
                     <form class="container p-5">
-                        <div class="mb-3">
-                            <label for="exampleInputEmail1" class="form-label">نام کاربری:</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="username" placeholder="username">
+                            <label for="username">نام کاربری</label>
                         </div>
-                        <div class="mb-5">
-                            <label for="exampleInputPassword1" class="form-label">رمز عبور:</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        <div class="form-floating mb-5">
+                            <input type="password" class="form-control" id="pass" placeholder="pass">
+                            <label for="pass">رمز عبور</label>
                         </div>
                         <div class="d-flex justify-content-end pt-5">
-                            <button type="submit" class="btn p-3">وارد شدن</button>
+                            <button type="submit" class="btn p-2">وارد شدن</button>
                         </div>
                     </form>
                 </div>

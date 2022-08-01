@@ -2,7 +2,7 @@
     font-family: 'Vazir FD-UI';
     src: url('../font/Vazir-Regular-FD-UI.ttf');
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991px) {
     .nav-item {
         width: 80%;
     }
@@ -22,14 +22,14 @@ ul{
     width: 100%;
     padding: 0;
 }
-a , a:visited , a:link {
+a , a:visited , a:link{
     color: white;
     text-decoration: none;
 }
 .nav-item{
     background-color: #425C81;
-    margin: 8px 16px;
-    min-width: 15%;
+    margin: 8px 8px;
+    min-width: 6%;
     border-radius: 10px;
 }
 .nav-link{
@@ -38,16 +38,20 @@ a , a:visited , a:link {
     font-family: 'Vazir FD-UI', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 19px;
+    font-size: 16px;
     line-height: 30px;
     transition: all 0.3s ease-out;
 }
 #sign\ up{
     background-color: white;
     border: 1px solid #425C81;
+    min-width: 5%;
 }
-#sign\ up a {
+#sign\ up a{
     color: #425C81;
+}
+#login{
+    min-width: 5%;
 }
 .section-1{
     background-color:white;
@@ -76,10 +80,11 @@ form{
 }
 .btn{
     background-color: #425C81;
+    color: white;
     font-family: 'Vazir FD-UI' , sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 23px;
+    font-size: 16px;
     line-height: 28px;
 }
 .btn:hover{
