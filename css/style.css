@@ -4,7 +4,7 @@
 }
 @media only screen and (max-width: 991px) {
     .nav-item {
-        width: 80%;
+        width: 35%;
     }
 }
 body{
@@ -16,6 +16,9 @@ body{
     margin: 0 16px;
     padding: 0;
     border-radius: 10px;
+}
+.offcanvas{
+    background-color: #A5D4DE;
 }
 ul{
     align-items: center;
@@ -29,7 +32,7 @@ a , a:visited , a:link{
 .nav-item{
     background-color: #425C81;
     margin: 8px 8px;
-    min-width: 6%;
+    min-width: 7%;
     border-radius: 10px;
 }
 .nav-link{
@@ -41,6 +44,10 @@ a , a:visited , a:link{
     font-size: 16px;
     line-height: 30px;
     transition: all 0.3s ease-out;
+}
+.offcanvas-title{
+    font-family: 'Vazir FD-UI', sans-serif;
+    font-style: normal;
 }
 #sign\ up{
     background-color: white;

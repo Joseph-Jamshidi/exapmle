@@ -17,6 +17,9 @@ body{
     padding: 0;
     border-radius: 10px;
 }
+.offcanvas{
+    background-color: #A5D4DE;
+}
 ul{
     align-items: center;
     width: 100%;

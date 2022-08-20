@@ -9,12 +9,17 @@
     <script src="js/font.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg mb-5">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">منوی اصلی</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
                 <ul class="navbar-nav d-flex justify-content-sm-start">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">صفحه اصلی</a>
@@ -40,13 +45,14 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </div>
+</nav>
     <div class="section-1 px-3 pt-5">
         <div class="in-sec">
             <h1 class="d-inline-block  m-3" id="sign-header">ثبت نام</h1>
             <div class="container p-2 p-0">
                 <form class="row col-12 p-md-5 p-0 py-5 m-0 gx-5 d-flex justify-content-xl-around">
-                    <div class="col-12 col-lg-6 col-xl-5">
+                    <div class="col-12 col-md-6 col-xl-5">
                         <div class="form-floating mb-3">
                             <input type="text" class="form-control" id="firstname" placeholder="name">
                             <label for="firstname">نام</label>
@@ -72,7 +78,7 @@
                             <label for="role">انتخاب نقش</label>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-6 col-xl-5">
+                    <div class="col-12 col-md-6 col-xl-5">
                         <div class="form-floating mb-3">
                             <input type="date" class="form-control" id="birthday" placeholder="birthday">
                             <label for="birthday">تاریخ تولد</label>
