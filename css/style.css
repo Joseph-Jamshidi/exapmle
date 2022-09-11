@@ -32,7 +32,7 @@ a , a:visited , a:link{
 .nav-item{
     background-color: #425C81;
     margin: 8px 8px;
-    min-width: 7%;
+    min-width: 5%;
     border-radius: 10px;
 }
 .nav-link{
@@ -41,9 +41,10 @@ a , a:visited , a:link{
     font-family: 'Vazir FD-UI', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 30px;
     transition: all 0.3s ease-out;
+    padding: 0.25rem;
 }
 .offcanvas-title{
     font-family: 'Vazir FD-UI', sans-serif;
@@ -52,13 +53,13 @@ a , a:visited , a:link{
 #sign\ up{
     background-color: white;
     border: 1px solid #425C81;
-    min-width: 5%;
+    min-width: 4%;
 }
 #sign\ up a{
     color: #425C81;
 }
 #login{
-    min-width: 5%;
+    min-width: 4%;
 }
 #signup2{
     color: #425C81;
@@ -88,7 +89,7 @@ a , a:visited , a:link{
 }
 .section3{
     background-color: white;
-    padding: 5% 8%;
+    padding: 2% 4%;
     border-top: 16px solid #425C81;
     border-bottom: 16px solid #425C81;
 }
@@ -99,7 +100,7 @@ a , a:visited , a:link{
     padding: 63px 0 0;
 }
 .txt{
-    background-color: #34C931;
+    background-color: #5072A4;
     color: white;
     border-radius: 5px;
     margin: -15px 10px 32px 10px;
@@ -107,6 +108,7 @@ a , a:visited , a:link{
     font-style: normal;
     font-weight: 700;
     line-height: 42px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 .bt-img{
     transform: translateY(-15%);
@@ -153,4 +155,40 @@ h1{
     left: 0;
     bottom: -15%;
     z-index: -1;
+}
+#img5{
+    position: absolute;
+    right: 0;
+    bottom: -10%;
+    z-index: -1;
+}
+#img6{
+    position: absolute;
+    right: 0;
+    bottom: -10%;
+    z-index: -1;
+}
+.section4{
+    padding: 2% 4%;
+}
+.in-sec4{
+    border: 2px solid #425C81;
+}
+.header4{
+    font-family: 'Vazir FD-UI' , sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 42px;
+    color: #425C81;
+}
+.dw-btn{
+    background-color: white;
+    margin: 3%;
+    height: 300px;
+}
+#img7 , #img8{
+    position: absolute;
+    right: 0;
+    top: 0;
 }

@@ -2,115 +2,60 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ثبت نام</title>
+    <title>ورود</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.rtl.min.css">
     <link rel="stylesheet" href="css/sign-up-style.css">
-    <script src="js/font.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
-    <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">منوی اصلی</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <div class="mx-auto login-page col-lg-4 col-md-6 col-11">
+        <div class="d-flex mt-4 ms-2">
+            <a href="index.html">
+                <img src="img/Arrow%20-%20Left.png" class="mt-2" alt="">
+            </a>
+            <div id="enter">ثبت نام</div>
+        </div>
+        <form class="login-form">
+            <div class="form-floating mb-4">
+                <input class="form-control" type="text" id="username" placeholder="username">
+                <label class="form-label" for="username">
+                    <img src="img/Profile1.png" alt="" class="">
+                    نام کاربری
+                </label>
             </div>
-            <div class="offcanvas-body">
-                <ul class="navbar-nav d-flex justify-content-sm-start">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">صفحه اصلی</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">خدمات</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">تعرفه ها</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">درباره ما</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">تماس با ما</a>
-                    </li>
-                    <li class="nav-item ms-lg-auto" id="sign up">
-                        <a class="nav-link" href="sign-up.html">ثبت نام</a>
-                    </li>
-                    <li class="nav-item" id="login">
-                        <a class="nav-link" href="login.html">ورود</a>
-                    </li>
-                </ul>
+            <div class="form-floating mb-4">
+                <input class="form-control" type="password" id="pass" placeholder="username">
+                <label class="form-label" for="pass">
+                    <img src="img/Stroke%201.png" alt="" class="">
+                    شماره تلفن
+                </label>
             </div>
+            <div class="form-floating">
+                <input class="form-control" type="password" id="pass" placeholder="username">
+                <label class="form-label" for="pass">
+                    <img src="img/Lock.png" alt="" class="">
+                    رمز عبور
+                </label>
+            </div>
+        </form>
+        <div class="text-center">
+            <button class="btn col-11" type="button">
+                <a href="#">ثبت نام</a>
+            </button>
         </div>
     </div>
-</nav>
-    <div class="section-1 px-3 pt-5">
-        <div class="in-sec">
-            <h1 class="d-inline-block  m-3" id="sign-header">ثبت نام</h1>
-            <div class="container p-2 p-0">
-                <form class="row col-12 p-md-5 p-0 py-5 m-0 gx-5 d-flex justify-content-xl-around">
-                    <div class="col-12 col-md-6 col-xl-5">
-                        <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="firstname" placeholder="name">
-                            <label for="firstname">نام</label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="family-name" placeholder="family-name">
-                            <label for="family-name">نام خانوادگی</label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="father-name" placeholder="father-name">
-                            <label for="father-name">نام پدر</label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <input type="number" class="form-control" id="id-code" placeholder="code">
-                            <label for="id-code">کد ملی</label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <input type="number" class="form-control" id="sh-code" placeholder="code">
-                            <label for="sh-code">شماره شناسنامه</label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="role" placeholder="role">
-                            <label for="role">انتخاب نقش</label>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-xl-5">
-                        <div class="form-floating mb-3">
-                            <input type="date" class="form-control" id="birthday" placeholder="birthday">
-                            <label for="birthday">تاریخ تولد</label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <input type="email" class="form-control" id="mail" placeholder="name@exaxmple.com">
-                            <label for="mail">نشانی الکترونیکی</label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <input type="number" class="form-control" id="p-number" placeholder="p-number">
-                            <label for="p-number">شماره همراه</label>
-                        </div>
-                        <div class="form-floating mb-3">
-                            <textarea class="form-control" placeholder="Leave a comment here" id="comment"></textarea>
-                            <label for="comment">ادرس محل کار</label>
-                        </div>
-                        <div class="d-flex">
-                            <div class="mx-3 mb-3">
-                                <label class="form-check-label" for="flexCheckDefault">من ربات نیستم</label>
-                            </div>
-                            <div class="form-check mb-3">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                            </div>
-                        </div>
-                        <div class="d-flex justify-content-end">
-                            <button type="submit" class="btn p-2">ثبت نام</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
+    <img src="img/Vector.png" alt="" class="b-left d-md-block d-none">
+    <img src="img/Ellipse%20653.png" alt="" class="b-left d-md-block d-none">
+    <img src="img/Ellipse%20652.png" alt="" class="b-left d-md-block d-none">
+    <img src="img/Vector.png" alt="" class="b-right d-md-block d-none">
+    <img src="img/Ellipse%20653.png" alt="" class="b-right d-md-block d-none">
+    <img src="img/Ellipse%20654.png" alt="" class="b-right d-md-block d-none">
+    <br>
+    <br>
+    <br>
+
+
+
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/custom.js"></script>
